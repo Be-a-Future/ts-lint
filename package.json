@@ -1,6 +1,6 @@
 {
   "name": "@bafx/lint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "eslint.config.mjs",
   "type": "module",
   "scripts": {
@@ -25,12 +25,10 @@
   "peerDependencies": {
     "eslint": "^9.25.1"
   },
-  "packageManager": "yarn@3.6.4",
   "engines": {
     "node": ">=18.18.0"
   },
   "volta": {
-    "node": "18.18.0",
-    "yarn": "3.6.4"
+    "node": "18.18.0"
   }
 }
