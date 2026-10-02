@@ -1,0 +1,1 @@
+# @bafx/lint-config
