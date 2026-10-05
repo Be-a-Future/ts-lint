@@ -5,7 +5,7 @@ Shared ESLint rules for TypeScript projects. Includes recommended TypeScript rul
 ## Install
 
 ```bash
-npm install --save-dev @bafx/lint-config
+npm install --save-dev @bafx/lint-config eslint
 ```
 
 ## Use

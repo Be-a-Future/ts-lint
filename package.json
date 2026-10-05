@@ -1,6 +1,6 @@
 {
   "name": "@bafx/lint-config",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "main": "eslint.config.mjs",
   "type": "module",
   "scripts": {
@@ -11,7 +11,6 @@
     "@eslint/js": "^9.25.1",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
-    "eslint": "^9.25.1",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-import-x": "^4.1.1",
     "eslint-plugin-n": "^17.17.0",
@@ -23,7 +22,10 @@
     "typescript": "5.8.3"
   },
   "peerDependencies": {
-    "eslint": "^9.25.1"
+    "eslint": "^9.25.1 || ^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.0"
   },
   "engines": {
     "node": ">=18.18.0"
